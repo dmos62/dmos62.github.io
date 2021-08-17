@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 class="title">
+    {{ full_name }}
+  </h1>
+  <h2 class="subtitle">
+    {{ nick_name }}
+  </h2>
+  <h3 style="margin-top: -1.25rem;" class="subtitle is-6">
+    <a href="{{ resume_url }}">{{ resume_url }}</a>
+  </h3>
+  <!--
+  <p>
+    Click <a href="/blog/">here</a> to see my posts.
+  </p>
+  -->
+{% endblock content %}
